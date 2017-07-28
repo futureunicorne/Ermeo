@@ -1,3 +1,4 @@
+/*
 app.directive('appInfo', function() {
   return {
     restrict: 'E',
@@ -7,3 +8,4 @@ app.directive('appInfo', function() {
     templateUrl: 'js/directives/appInfo.html'
   };
 });
+*/

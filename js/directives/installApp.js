@@ -1,3 +1,4 @@
+/*
 app.directive('installApp', function() {
   return {
     restrict: 'E',
@@ -5,3 +6,4 @@ app.directive('installApp', function() {
     templateUrl: 'js/directives/installApp.html',
   };
 });
+*/
