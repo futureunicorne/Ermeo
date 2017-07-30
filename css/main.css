@@ -1,18 +1,9 @@
 #bloc {
 	background-color: #c7c7c7;
-	width: 50vw;
-	height: 35vh;
+	width: 100vw;
+	height: 45vh;
 	margin: auto;
 	margin-top: 13%;
-}
-
-.line {
-	display: inline;
-	align: center;
-}
-
-.line2 {
-	display: inline-block;
 }
 
 h1 {

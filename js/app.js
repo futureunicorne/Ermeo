@@ -5,11 +5,11 @@ myApp.config(['$locationProvider', function($locationProvider) {
   $locationProvider.hashPrefix('');
 }]);
 
-//module de gestion des routes
+//module de gestion de route
 myApp.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "index.html",
-		controller  : 'MainController'
-    });
+        templateUrl : "index.html"
+	})
+	.otherwise({redirectTo:'/'});
 });
